@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 fetch('/users/livecoder')
                     .then(response => response.json())
                     .then(user => {
-                        let countdown = 3;
+                        let countdown = 1;
                         const countdownElement = document.getElementById('countdown');
                         const userNameDisplay = document.getElementById('userNameDisplay');
 
